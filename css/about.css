@@ -1,0 +1,15 @@
+
+h1{
+    
+    text-align: center;
+    color: rgb(28, 146, 5);
+}
+pre{
+    margin-top: 0dvh;
+    text-align: center;
+    font-size: large;
+    letter-spacing: normal;
+    word-spacing: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
