@@ -1,0 +1,77 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.nav{
+    background-color: rgb(227, 223, 231);
+    color: rgb(28, 146, 5);
+    padding-bottom: 2%;
+}
+
+nav #mobile{
+    display: none;
+}
+.nav div a{
+    text-decoration: none;
+    color: rgb(28, 146, 5);
+    margin-left: 2rem;
+    border: none;
+    font-size: larger;
+    text-transform: capitalize;
+}
+
+.nav div a:hover{
+    border-bottom: 3px solid rgb(28, 146, 5) ;
+}
+
+.nav div span{
+    margin-left: 35%;
+}
+
+.nav .logo{
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(28, 146, 5);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+@media only screen and (max-width:800px){
+    nav #lapi{
+        display: none;
+    }
+
+    nav #mobile{
+        display: block;
+    }
+
+    nav .mobile .icon_Mobile_menu{
+        position: absolute;
+        right: 0px;
+    } 
+
+    nav .mobile .Menu{
+        display: none;
+        flex-direction: column;
+    }
+
+    nav .mobile .Menu a{
+        margin-top: 1rem;
+        width: 5rem;
+    }
+
+    nav .mobile .Menu p{
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    nav #Menu_close{
+        display: none;
+        cursor: pointer;
+    }
+
+    nav #Menu_show{
+        cursor: pointer;
+    }
+}
