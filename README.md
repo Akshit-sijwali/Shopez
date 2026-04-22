@@ -11,6 +11,8 @@ Shopez is a lightweight affiliate e-commerce website that showcases products and
 🧱 Tech Stack
 Frontend: HTML, CSS, JavaScript
 ---
+
+
 Hosting: GitHub Pages / Vercel
 📂 Project Structure
 shopez/
@@ -18,16 +20,25 @@ shopez/
 │── style.css
 │── script.js
 │── assets/
+
+
+
 ⚙️ Setup & Run
 Clone the repository
 Open the project:
 cd shopez
 Run locally:
 Open index.html in your browser
+
+
+
 💰 How It Works
 Users browse products on Shopez
 Clicking a product redirects to affiliate platforms
 You earn commission on successful purchases
+
+
+
 📌 Future Improvements
 🔍 Search & filters
 🧠 AI-based recommendations
